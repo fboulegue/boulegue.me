@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A32059813D2966F00F8DCDF /* optibelt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A32059613D2966F00F8DCDF /* optibelt_logo.png */; };
+		8A3205A613D29DD100F8DCDF /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3205A213D29DD000F8DCDF /* Mail.png */; };
+		8A3205A713D29DD100F8DCDF /* News.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3205A313D29DD100F8DCDF /* News.png */; };
+		8A3205A813D29DD100F8DCDF /* Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3205A413D29DD100F8DCDF /* Phone.png */; };
+		8A3205A913D29DD100F8DCDF /* Web.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3205A513D29DD100F8DCDF /* Web.png */; };
+		8A5C255713BF90D00037FAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C255613BF90D00037FAEC /* UIKit.framework */; };
+		8A5C255913BF90D00037FAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C255813BF90D00037FAEC /* Foundation.framework */; };
+		8A5C255B13BF90D00037FAEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C255A13BF90D00037FAEC /* CoreGraphics.framework */; };
+		8A5C256113BF90D00037FAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C255F13BF90D00037FAEC /* InfoPlist.strings */; };
+		8A5C256313BF90D00037FAEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C256213BF90D00037FAEC /* main.m */; };
+		8A5C256713BF90D00037FAEC /* iOptibeltAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C256613BF90D00037FAEC /* iOptibeltAppDelegate.m */; };
+		8A5C256913BF90D00037FAEC /* iOptibeltViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C256813BF90D00037FAEC /* iOptibeltViewController.h */; };
+		8A5C256B13BF90D00037FAEC /* iOptibeltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C256A13BF90D00037FAEC /* iOptibeltViewController.m */; };
+		8A5C256E13BF90D00037FAEC /* iOptibeltViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C256C13BF90D00037FAEC /* iOptibeltViewController.xib */; };
+		8A5C257613BF90D00037FAEC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C257513BF90D00037FAEC /* SenTestingKit.framework */; };
+		8A5C257713BF90D00037FAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C255613BF90D00037FAEC /* UIKit.framework */; };
+		8A5C257813BF90D00037FAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C255813BF90D00037FAEC /* Foundation.framework */; };
+		8A5C257913BF90D00037FAEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C255A13BF90D00037FAEC /* CoreGraphics.framework */; };
+		8A5C258113BF90D00037FAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C257F13BF90D00037FAEC /* InfoPlist.strings */; };
+		8A5C258313BF90D00037FAEC /* iOptibeltTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C258213BF90D00037FAEC /* iOptibeltTests.h */; };
+		8A5C258513BF90D00037FAEC /* iOptibeltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C258413BF90D00037FAEC /* iOptibeltTests.m */; };
+		8A5C258F13BF90E30037FAEC /* retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C258E13BF90E30037FAEC /* retina.png */; };
+		8A5C259113BF90E70037FAEC /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C259013BF90E70037FAEC /* normal.png */; };
+		8A5C259313BF90EA0037FAEC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C259213BF90EA0037FAEC /* Default@2x.png */; };
+		8A5C259513BF90ED0037FAEC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C259413BF90ED0037FAEC /* Default.png */; };
+		8A5C259713BF94AB0037FAEC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C259613BF94AB0037FAEC /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A5C257A13BF90D00037FAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A5C254913BF90D00037FAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A5C255113BF90D00037FAEC;
+			remoteInfo = iOptibelt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A32059613D2966F00F8DCDF /* optibelt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = optibelt_logo.png; sourceTree = "<group>"; };
+		8A3205A213D29DD000F8DCDF /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		8A3205A313D29DD100F8DCDF /* News.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = News.png; sourceTree = "<group>"; };
+		8A3205A413D29DD100F8DCDF /* Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phone.png; sourceTree = "<group>"; };
+		8A3205A513D29DD100F8DCDF /* Web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Web.png; sourceTree = "<group>"; };
+		8A5C255213BF90D00037FAEC /* boulegue.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boulegue.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5C255613BF90D00037FAEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A5C255813BF90D00037FAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A5C255A13BF90D00037FAEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A5C255E13BF90D00037FAEC /* iOptibelt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOptibelt-Info.plist"; sourceTree = "<group>"; };
+		8A5C256013BF90D00037FAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A5C256213BF90D00037FAEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A5C256413BF90D00037FAEC /* iOptibelt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOptibelt-Prefix.pch"; sourceTree = "<group>"; };
+		8A5C256513BF90D00037FAEC /* iOptibeltAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOptibeltAppDelegate.h; sourceTree = "<group>"; };
+		8A5C256613BF90D00037FAEC /* iOptibeltAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOptibeltAppDelegate.m; sourceTree = "<group>"; };
+		8A5C256813BF90D00037FAEC /* iOptibeltViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOptibeltViewController.h; sourceTree = "<group>"; };
+		8A5C256A13BF90D00037FAEC /* iOptibeltViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOptibeltViewController.m; sourceTree = "<group>"; };
+		8A5C256D13BF90D00037FAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iOptibeltViewController.xib; sourceTree = "<group>"; };
+		8A5C257413BF90D00037FAEC /* iOptibeltTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOptibeltTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5C257513BF90D00037FAEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A5C257E13BF90D00037FAEC /* iOptibeltTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOptibeltTests-Info.plist"; sourceTree = "<group>"; };
+		8A5C258013BF90D00037FAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A5C258213BF90D00037FAEC /* iOptibeltTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOptibeltTests.h; sourceTree = "<group>"; };
+		8A5C258413BF90D00037FAEC /* iOptibeltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOptibeltTests.m; sourceTree = "<group>"; };
+		8A5C258E13BF90E30037FAEC /* retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retina.png; sourceTree = "<group>"; };
+		8A5C259013BF90E70037FAEC /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		8A5C259213BF90EA0037FAEC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A5C259413BF90ED0037FAEC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A5C259613BF94AB0037FAEC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5C254F13BF90D00037FAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C255713BF90D00037FAEC /* UIKit.framework in Frameworks */,
+				8A5C255913BF90D00037FAEC /* Foundation.framework in Frameworks */,
+				8A5C255B13BF90D00037FAEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5C257013BF90D00037FAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C257613BF90D00037FAEC /* SenTestingKit.framework in Frameworks */,
+				8A5C257713BF90D00037FAEC /* UIKit.framework in Frameworks */,
+				8A5C257813BF90D00037FAEC /* Foundation.framework in Frameworks */,
+				8A5C257913BF90D00037FAEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5C254713BF90D00037FAEC = {
+			isa = PBXGroup;
+			children = (
+				8A5C259413BF90ED0037FAEC /* Default.png */,
+				8A32059613D2966F00F8DCDF /* optibelt_logo.png */,
+				8A3205A213D29DD000F8DCDF /* Mail.png */,
+				8A3205A313D29DD100F8DCDF /* News.png */,
+				8A3205A413D29DD100F8DCDF /* Phone.png */,
+				8A3205A513D29DD100F8DCDF /* Web.png */,
+				8A5C259213BF90EA0037FAEC /* Default@2x.png */,
+				8A5C259013BF90E70037FAEC /* normal.png */,
+				8A5C258E13BF90E30037FAEC /* retina.png */,
+				8A5C255C13BF90D00037FAEC /* iOptibelt */,
+				8A5C257C13BF90D00037FAEC /* iOptibeltTests */,
+				8A5C255513BF90D00037FAEC /* Frameworks */,
+				8A5C255313BF90D00037FAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5C255313BF90D00037FAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C255213BF90D00037FAEC /* boulegue.me.app */,
+				8A5C257413BF90D00037FAEC /* iOptibeltTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5C255513BF90D00037FAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C255613BF90D00037FAEC /* UIKit.framework */,
+				8A5C255813BF90D00037FAEC /* Foundation.framework */,
+				8A5C255A13BF90D00037FAEC /* CoreGraphics.framework */,
+				8A5C257513BF90D00037FAEC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A5C255C13BF90D00037FAEC /* iOptibelt */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C256513BF90D00037FAEC /* iOptibeltAppDelegate.h */,
+				8A5C256613BF90D00037FAEC /* iOptibeltAppDelegate.m */,
+				8A5C259613BF94AB0037FAEC /* Settings.bundle */,
+				8A5C256813BF90D00037FAEC /* iOptibeltViewController.h */,
+				8A5C256A13BF90D00037FAEC /* iOptibeltViewController.m */,
+				8A5C256C13BF90D00037FAEC /* iOptibeltViewController.xib */,
+				8A5C255D13BF90D00037FAEC /* Supporting Files */,
+			);
+			path = iOptibelt;
+			sourceTree = "<group>";
+		};
+		8A5C255D13BF90D00037FAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C255E13BF90D00037FAEC /* iOptibelt-Info.plist */,
+				8A5C255F13BF90D00037FAEC /* InfoPlist.strings */,
+				8A5C256213BF90D00037FAEC /* main.m */,
+				8A5C256413BF90D00037FAEC /* iOptibelt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A5C257C13BF90D00037FAEC /* iOptibeltTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C258213BF90D00037FAEC /* iOptibeltTests.h */,
+				8A5C258413BF90D00037FAEC /* iOptibeltTests.m */,
+				8A5C257D13BF90D00037FAEC /* Supporting Files */,
+			);
+			path = iOptibeltTests;
+			sourceTree = "<group>";
+		};
+		8A5C257D13BF90D00037FAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C257E13BF90D00037FAEC /* iOptibeltTests-Info.plist */,
+				8A5C257F13BF90D00037FAEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5C255113BF90D00037FAEC /* iOptibelt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5C258813BF90D00037FAEC /* Build configuration list for PBXNativeTarget "iOptibelt" */;
+			buildPhases = (
+				8A5C254E13BF90D00037FAEC /* Sources */,
+				8A5C254F13BF90D00037FAEC /* Frameworks */,
+				8A5C255013BF90D00037FAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOptibelt;
+			productName = iOptibelt;
+			productReference = 8A5C255213BF90D00037FAEC /* boulegue.me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A5C257313BF90D00037FAEC /* iOptibeltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5C258B13BF90D00037FAEC /* Build configuration list for PBXNativeTarget "iOptibeltTests" */;
+			buildPhases = (
+				8A5C256F13BF90D00037FAEC /* Sources */,
+				8A5C257013BF90D00037FAEC /* Frameworks */,
+				8A5C257113BF90D00037FAEC /* Resources */,
+				8A5C257213BF90D00037FAEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A5C257B13BF90D00037FAEC /* PBXTargetDependency */,
+			);
+			name = iOptibeltTests;
+			productName = iOptibeltTests;
+			productReference = 8A5C257413BF90D00037FAEC /* iOptibeltTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5C254913BF90D00037FAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8A5C254C13BF90D00037FAEC /* Build configuration list for PBXProject "iOptibelt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A5C254713BF90D00037FAEC;
+			productRefGroup = 8A5C255313BF90D00037FAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5C255113BF90D00037FAEC /* iOptibelt */,
+				8A5C257313BF90D00037FAEC /* iOptibeltTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5C255013BF90D00037FAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C256113BF90D00037FAEC /* InfoPlist.strings in Resources */,
+				8A5C256913BF90D00037FAEC /* iOptibeltViewController.h in Resources */,
+				8A5C256E13BF90D00037FAEC /* iOptibeltViewController.xib in Resources */,
+				8A5C258F13BF90E30037FAEC /* retina.png in Resources */,
+				8A5C259113BF90E70037FAEC /* normal.png in Resources */,
+				8A5C259313BF90EA0037FAEC /* Default@2x.png in Resources */,
+				8A5C259513BF90ED0037FAEC /* Default.png in Resources */,
+				8A5C259713BF94AB0037FAEC /* Settings.bundle in Resources */,
+				8A32059813D2966F00F8DCDF /* optibelt_logo.png in Resources */,
+				8A3205A613D29DD100F8DCDF /* Mail.png in Resources */,
+				8A3205A713D29DD100F8DCDF /* News.png in Resources */,
+				8A3205A813D29DD100F8DCDF /* Phone.png in Resources */,
+				8A3205A913D29DD100F8DCDF /* Web.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5C257113BF90D00037FAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C258113BF90D00037FAEC /* InfoPlist.strings in Resources */,
+				8A5C258313BF90D00037FAEC /* iOptibeltTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A5C257213BF90D00037FAEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5C254E13BF90D00037FAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C256313BF90D00037FAEC /* main.m in Sources */,
+				8A5C256713BF90D00037FAEC /* iOptibeltAppDelegate.m in Sources */,
+				8A5C256B13BF90D00037FAEC /* iOptibeltViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5C256F13BF90D00037FAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C258513BF90D00037FAEC /* iOptibeltTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A5C257B13BF90D00037FAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A5C255113BF90D00037FAEC /* iOptibelt */;
+			targetProxy = 8A5C257A13BF90D00037FAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A5C255F13BF90D00037FAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5C256013BF90D00037FAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A5C256C13BF90D00037FAEC /* iOptibeltViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5C256D13BF90D00037FAEC /* en */,
+			);
+			name = iOptibeltViewController.xib;
+			sourceTree = "<group>";
+		};
+		8A5C257F13BF90D00037FAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5C258013BF90D00037FAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A5C258613BF90D00037FAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A5C258713BF90D00037FAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A5C258913BF90D00037FAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOptibelt/iOptibelt-Prefix.pch";
+				INFOPLIST_FILE = "iOptibelt/iOptibelt-Info.plist";
+				PRODUCT_NAME = boulegue.me;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A5C258A13BF90D00037FAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOptibelt/iOptibelt-Prefix.pch";
+				INFOPLIST_FILE = "iOptibelt/iOptibelt-Info.plist";
+				PRODUCT_NAME = boulegue.me;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A5C258C13BF90D00037FAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOptibelt.app/iOptibelt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOptibelt/iOptibelt-Prefix.pch";
+				INFOPLIST_FILE = "iOptibeltTests/iOptibeltTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8A5C258D13BF90D00037FAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOptibelt.app/iOptibelt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOptibelt/iOptibelt-Prefix.pch";
+				INFOPLIST_FILE = "iOptibeltTests/iOptibeltTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5C254C13BF90D00037FAEC /* Build configuration list for PBXProject "iOptibelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5C258613BF90D00037FAEC /* Debug */,
+				8A5C258713BF90D00037FAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5C258813BF90D00037FAEC /* Build configuration list for PBXNativeTarget "iOptibelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5C258913BF90D00037FAEC /* Debug */,
+				8A5C258A13BF90D00037FAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5C258B13BF90D00037FAEC /* Build configuration list for PBXNativeTarget "iOptibeltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5C258C13BF90D00037FAEC /* Debug */,
+				8A5C258D13BF90D00037FAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A5C254913BF90D00037FAEC /* Project object */;
+}
